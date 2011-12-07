@@ -97,7 +97,7 @@
       <file leaf-file-name="FizzBuzzTests.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FizzBuzzTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.9564541">
+            <state line="41" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.9564541">
               <folding />
             </state>
           </provider>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/FizzBuzzTest.groovy" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/FizzBuzz.groovy" />
-        <option value="$PROJECT_DIR$/src/FizzBuzzTests.groovy" />
         <option value="$PROJECT_DIR$/Caller.groovy" />
+        <option value="$PROJECT_DIR$/src/FizzBuzzTests.groovy" />
       </list>
     </option>
   </component>
@@ -238,7 +238,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy Script.Caller">
+  <component name="RunManager" selected="JUnit.FizzBuzzTests">
     <configuration default="false" name="Caller" type="GroovyScriptRunConfiguration" factoryName="Groovy Script" temporary="true">
       <module name="FizzBuzz" />
       <setting name="path" value="$PROJECT_DIR$/src/Caller.groovy" />
@@ -580,7 +580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FizzBuzzTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.9564541">
+        <state line="41" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.9564541">
           <folding />
         </state>
       </provider>

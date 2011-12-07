@@ -14,24 +14,21 @@ class FizzBuzzTests extends GroovyTestCase {
     void testShouldOutputFizzWhenNumberIsMultipleOfThree() {
         def x = new FizzBuzz()
 
-        def list = [3]
-        assert ['Fizz'] == x.calculate(list)
+        assert ['Fizz'] == x.calculate([3])
     }
 
     @Test
     void testShouldOutputFizzWhenNumberContainsADigitEqualToThree() {
         def x = new FizzBuzz()
 
-        def list = [37]
-        assert ['Fizz'] == x.calculate(list)
+        assert ['Fizz'] == x.calculate([37])
     }
 
     @Test
     void testShouldOutputBuzzWhenNumberContainsADigitEqualToFive() {
         def x = new FizzBuzz()
 
-        def list = [52]
-        assert ['Buzz'] == x.calculate(list)
+        assert ['Buzz'] == x.calculate([52])
     }
 
     @Test
@@ -52,40 +49,35 @@ class FizzBuzzTests extends GroovyTestCase {
     void testShouldOutputFizzForEachNumberWhenNumberIsMultipleOfThreeAndNotMultipleOfFive() {
         def x = new FizzBuzz()
 
-        def list = [3, 6, 9, 12, 18]
-        assert ['Fizz', 'Fizz', 'Fizz', 'Fizz', 'Fizz'] == x.calculate(list)
+        assert ['Fizz', 'Fizz', 'Fizz', 'Fizz', 'Fizz'] == x.calculate([3, 6, 9, 12, 18])
     }
 
     @Test
     void testShouldOutputBuzzForEachNumberWhenNumberIsMultipleOfFiveAndNotMultipleOfThree() {
         def x = new FizzBuzz()
 
-        def list = [5, 10, 20, 25, 40]
-        assert ['Buzz', 'Buzz', 'Buzz', 'Buzz', 'Buzz'] == x.calculate(list)
+        assert ['Buzz', 'Buzz', 'Buzz', 'Buzz', 'Buzz'] == x.calculate([5, 10, 20, 25, 40])
     }
 
     @Test
     void testShouldOutputFizzBuzzForEachNumberWhenNumberIsMultipleOfThreeAndFive() {
         def x = new FizzBuzz()
 
-        def list = [15, 30, 45, 60, 75]
-        assert ['FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz'] == x.calculate(list)
+        assert ['FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz'] == x.calculate([15, 30, 45, 60, 75])
     }
 
     @Test
     void testShouldOutputIncomingNumberWhenNumberIsNotMultipleOfThreeOrFive() {
         def x = new FizzBuzz()
 
-        def list = [2]
-        assert [2] == x.calculate(list)
+        assert [2] == x.calculate([2])
     }
 
     @Test
     void testShouldOutputIncomingListOfNumbersWhenNumbersNotMultipleOfThreeOrFive() {
         def x = new FizzBuzz()
 
-        def list = [1, 2, 4, 7]
-        assert [1, 2, 4, 7] == x.calculate(list)
+        assert [1, 2, 4, 7] == x.calculate([1, 2, 4, 7])
     }
 
 }
