@@ -74,6 +74,34 @@ class FizzBuzzTests extends GroovyTestCase {
     }
 
     @Test
+    void testShouldOutputFizzBuzzWhenNumberIsZero() {
+        def x = new FizzBuzz()
+
+        assert ['FizzBuzz'] == x.calculate([0])
+    }
+
+    @Test
+    void testShouldOutputFizzWhenNumberIsNegativeThree() {
+        def x = new FizzBuzz()
+
+        assert ['Fizz'] == x.calculate([-3])
+    }
+
+    @Test
+    void testShouldOutputFizzWhenNumberIsNegativeFive() {
+        def x = new FizzBuzz()
+
+        assert ['Buzz'] == x.calculate([-5])
+    }
+
+    @Test
+    void testShouldOutputFizzBuzzWhenNumberIsNegativeFifteen() {
+        def x = new FizzBuzz()
+
+        assert ['FizzBuzz'] == x.calculate([-15])
+    }
+
+    @Test
     void testShouldOutputIncomingListOfNumbersWhenNumbersNotMultipleOfThreeOrFive() {
         def x = new FizzBuzz()
 
